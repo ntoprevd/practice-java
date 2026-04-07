@@ -1,6 +1,7 @@
 # 排除某些文件夹
 251107/
 notes/
+javaUtil/
 
 # Java 编译
 *.class
