@@ -61,7 +61,7 @@ public class Test02 {
         }
 
         // 5. 转换成 姓名-性别-年龄 形式，并存放进入最终的人员信息集合
-        ArrayList<String> list = listInfos(familyNameList, girlNameList, boyNameList, 50, 50);
+        ArrayList<String> list = listInfos(familyNameList, girlNameList, boyNameList, 100, 100);
 
         // 6. 将人员信息写入本地文件
         BufferedWriter bw = new BufferedWriter(new FileWriter("infos.txt"));
